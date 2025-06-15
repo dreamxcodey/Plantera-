@@ -3,7 +3,7 @@
 import { NavBar } from "../components/navbar";
 import Image from "next/image";
 import Footer from "@/components/footer";
-import {Mainpage_Hero} from "@/components/home/hero";
+import { Mainpage_Hero } from "@/components/home/hero";
 import { Main_ProductSection } from "@/components/home/product";
 import { Mainpage_Finalsection } from "@/components/home/finalsection";
 import { Main_pageNewsletter } from "@/components/home/newletter";
@@ -25,9 +25,9 @@ export default function Home() {
       <NavBar />
 
       {/* Main Hero Section */}
-      <Mainpage_Hero/>
+      <Mainpage_Hero />
       {/* Product Section */}
-     <Main_ProductSection/>
+      <Main_ProductSection />
 
       {/* Mid-section */}
       <div className="relative flex items-center h-[80vh] bg-[#E9F6E2] py-16">
@@ -54,7 +54,7 @@ export default function Home() {
               succulents to lush, trailing vines, our plants are carefully
               chosen to thrive in a variety of environments.
             </p>
-            <button className="mt-6 px-4 py-3  w-300 h-74 rounded-full bg-[#123D24] text-[#B1C0A9]  hover:bg-green-800">
+            <button className="mt-6 px-4 py-3 bg-gradient-to-r from-green-200 to-blue-300   w-300 h-74 rounded-full bg-[#123D24] text-[#B1C0A9]  hover:bg-green-800">
               Learn More
             </button>
           </div>
@@ -62,9 +62,9 @@ export default function Home() {
       </div>
 
       {/* Final Section */}
-      <Mainpage_Finalsection/>
+      <Mainpage_Finalsection />
       {/** New Leater Section*/}
-     <Main_pageNewsletter/>
+      <Main_pageNewsletter />
 
       <Footer />
     </div>

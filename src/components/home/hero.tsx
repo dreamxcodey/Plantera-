@@ -23,7 +23,7 @@ export const Mainpage_Hero: React.FC = () => {
           and sign up for our newsletter to stay in the loop on all things
           plant-related.
         </p>
-        <button className="py-3 bg-[#FEFEFE] text-[#7B8980] font-medium rounded-full shadow-md hover:bg-green-800 transition duration-300">
+        <button className="py-3 bg-gradient-to-r from-gray-300 to-yellow-200  text-gray-600 font-medium rounded-full shadow-md hover:bg-green-800 transition duration-300">
           Shop Now
         </button>
       </div>
