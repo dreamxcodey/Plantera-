@@ -1,4 +1,4 @@
 ## Planter - E-commerce Store
+Repo Archived -- PRIVATE
 
-
-![code](/public/plantera.png)
+![code](/public/image.png)
